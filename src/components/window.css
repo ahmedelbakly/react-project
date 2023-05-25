@@ -82,12 +82,23 @@ img {
   right: 50% !important;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
+  .container{
+    padding: 0;
+    overflow: hidden;
+  }
  .parent {
-  width: 350px;
+  padding: 0;
+  width: 300px;
+  overflow: hidden;
+
  }
 
  .child {
-  width: 175px;
+  width: 150px;
  }
+ /* .button-container {
+  width: 80vw;
+  margin: auto;
+ } */
  }

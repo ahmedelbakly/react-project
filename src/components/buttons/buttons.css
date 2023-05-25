@@ -33,3 +33,13 @@
     border: none;
     padding: 10px 20px;
 }
+
+
+
+
+@media only screen and (max-width: 500px) {
+   .btn-in-group {
+    padding: 5px 10px;
+    
+   }
+   }
